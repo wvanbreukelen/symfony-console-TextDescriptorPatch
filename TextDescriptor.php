@@ -34,8 +34,8 @@ class TextDescriptor extends Descriptor
     public static function addToDescribeApplication($message, $break = true)
     {
         self::$messages[] = $message;
-        if ($break){self::$messages[] = '';}
-        return $message;
+        if ($break) self::$messages[] = '';
+        return $massage;
     }
 
     /**
